@@ -15,4 +15,4 @@ pandas
 numpy
 schedule
 bcrypt
-plotly
+plotly==5.15.0
