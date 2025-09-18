@@ -788,12 +788,12 @@ def show_enhanced_chat_page():
 
             with col1:
                 if st.button("🔄 Update Now", use_container_width=True):
-                    with st.spinner("Fetching RBI updates..."):
-                        success = rbi_scraper.update_rbi_data()
-                        if success:
-                            st.success("✅ RBI data updated!")
-                        else:
-                            st.error("❌ Update failed")
+    with st.spinner("🏦 Fetching latest RBI updates..."):
+        filepath = save_rbi_updates_enhanced()
+        if filepath:
+            st.success("✅ RBI data updated with current information!")
+            st.session_state.last_rbi_update = datetime.now()
+            st.rerun()
 
             with col2:
                 if st.button("📊 View Updates", use_container_width=True):
