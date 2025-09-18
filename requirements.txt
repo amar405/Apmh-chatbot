@@ -1,18 +1,56 @@
+# Core Streamlit
 streamlit
+
+# LangChain Framework
 langchain
-langchain-community  
+langchain-community
 langchain-google-genai
 langchain-core
+
+# Vector Store and Embeddings
 faiss-cpu
 sentence-transformers
-fuzzywuzzy
-python-Levenshtein
-requests
-beautifulsoup4
+
+# Document Processing
 PyPDF2
 python-docx
 pandas
-numpy
-schedule
+
+# Web Components and Utilities
+requests
+beautifulsoup4
+
+# User Authentication
 bcrypt
-plotly==5.15.0
+
+# Basic Python Libraries (usually included but adding for safety)
+os-sys
+datetime
+
+# File Operations
+pathlib
+
+# URL Parsing
+urllib3
+
+# Data Processing
+numpy
+
+# Plotting (that was causing the error)
+plotly
+
+# Text Analysis (that was causing the textstat error)
+textstat
+
+# Fuzzy Search
+fuzzywuzzy
+python-Levenshtein
+
+# Scheduling
+schedule
+
+# Date Utilities  
+python-dateutil
+
+# Components (if using streamlit components)
+streamlit-components-v1
