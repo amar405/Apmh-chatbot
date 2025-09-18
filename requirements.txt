@@ -1,22 +1,3 @@
-streamlit
-langchain-google-genai
-langchain-text-splitters
-langchain-core
-langchain
-langchain-community
-pypdf
-requests
-beautifulsoup4
-python-docx
-duckduckgo-search
-faiss-cpu
-numpy
-sentence-transformers
-unstructured
-google-generativeai
-pandas
-requests
-beautifulsoup4
 # Core Streamlit and web framework
 streamlit>=1.28.0
 streamlit-components-v1>=0.0.1
